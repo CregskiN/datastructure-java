@@ -3,8 +3,8 @@ package structuretools;
 public class Array<E> {
 
     private E[] data; //定义 访问+类型+数组名
-    private int size;   //数组中元素的个数 <指向第一个没有元素的下标>
 
+    private int size;   //数组中元素的个数 <指向第一个没有元素的下标>
 
     //构造函数 ， 传入数组的容量capacity构造Array
     public Array(int capacity) { //capacity表示数组最大容量

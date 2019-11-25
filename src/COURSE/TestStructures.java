@@ -1,5 +1,8 @@
-package any_structures;
+package COURSE;
 import java.util.Random;
+
+import any_structures.ArrayStack;
+import any_structures.LinkedListStack;
 import implement.Stack;
 
 class TestStructures {

@@ -31,7 +31,7 @@ public class LinkedListQueue<E> implements Queue<E> {
     private Node tail;
     private int size;
 
-    private LinkedListQueue() {
+    public LinkedListQueue() {
         this.head = null;
         this.tail = null;
         this.size = 0;

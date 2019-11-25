@@ -31,7 +31,7 @@ public class LinkedList<E> {
 
     public LinkedList() {
         dummyHead = new Node(null, null);     //为链表设立虚拟头节点dummyHead 无数值(浪费一个空间)
-        size = 0;
+        this.size = 0;
     }
 
     //获取链表元素个数
