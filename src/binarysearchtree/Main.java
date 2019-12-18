@@ -13,15 +13,33 @@ public class Main {
         *      3        6
         *    2   4        8
         * */
+        System.out.println("层级遍历");
+        bst.levelOrder();
 
+
+        System.out.println("先序遍历");
         bst.preOrder();
         System.out.println();
 
+        bst.preOrderNR();
+        System.out.println();
+
+
+        System.out.println("中序遍历");
         bst.inOrder();
         System.out.println();
 
+        bst.inOrderNR();
+        System.out.println();
+
+
+        System.out.println("后序遍历");
         bst.postOrder();
         System.out.println();
+
+        bst.postOrderNR();
+        System.out.println();
+
 //        System.out.println(bst);
     }
 }
