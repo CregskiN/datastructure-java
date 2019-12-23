@@ -169,6 +169,7 @@ public class Maze {
     public static void main(String[] args) {
         Maze maze = new Maze();
         Position end = new Position(-1, -1, -1, null);
+
         maze.walking(end);
         Position cur = end.font;
 

@@ -110,7 +110,7 @@ public class BST<E extends Comparable<E>> {
         inOrder(root);
     }
 
-    // 私有 ： 后续遍历递归
+    // 私有 ： 中续遍历递归
     private void inOrder(Node node) {
         if (node == null) {
             return;
